@@ -1,0 +1,381 @@
+@media(max-width :1205px){
+    .aboutlist li{
+        padding: 0px 20px;
+    }
+}
+
+@media( max-width:990px){
+    .aboutlist li{
+        padding: 0px 10px;
+    }
+}
+
+@media( max-width:870px){
+    .aboutlist li{
+        display: none;
+    }
+    #icon{
+        /* padding-left: 1px; */
+        margin-left: 74%;
+        
+    }
+    .logo img{
+        height: 150px;
+        /* position: absolute; */
+        top: -35px;
+        margin-left: 40px;
+    }
+}
+
+@media( max-width:580px){
+    #icon{
+        margin-right: 20%;
+    }
+    .logo img{
+        height: 110px;
+        /* position: absolute; */
+        margin-left: 20px;
+    }
+    .bgimage{
+        height: 600px;
+        width: 100%;
+    }
+}
+
+@media( max-width:450px){
+    #icon{
+        margin-right: 25%;
+    }
+    .bgimage{
+        width: 100%;
+        height: 500px;
+    }
+    .logo img{
+        margin-left: 20px;
+    }
+
+}
+@media( max-width:375px){
+    #icon{
+        margin-right: 20%;
+    }
+    .bgimage{
+        width: 100%;
+        height: 200px;
+    }
+
+
+    .logo img{
+        margin-left: 20px;
+    }
+
+}
+/* page 2 responsive below */
+
+@media(max-width :1205px){
+    #aboutsection1{
+        height: 750px;
+    }
+    #aboutsection101{
+        height: 750px;
+        padding-top: 20px;
+    }
+
+    #aboutsection2{
+        height: 750px;
+    }
+
+
+}
+
+@media( max-width:990px){
+    #aboutsection1{
+        height: 700px;
+
+    }
+    #aboutsection101{
+        height: 700px;
+    }
+
+
+    #aboutsection2{
+        height: 700px;
+
+    }
+
+}
+
+@media( max-width:870px){
+    #aboutsection1{
+        height: 650px;
+
+    }
+    #aboutsection101{
+        height: 650px;
+    }
+
+
+    #aboutsection2{
+        height: 650px;
+
+    }
+
+
+}
+
+
+
+
+
+@media( max-width:580px){
+    #abousection{
+        height: 600px;
+    }
+
+
+    #aboutsection1{
+        height: 600px;
+
+    }
+    #aboutsection101{
+        height: 600px;
+        padding: 20px;
+    }
+
+
+
+   #aboutsection2{
+        height: 600px;
+    }
+}
+
+
+
+@media( max-width:450px){
+    #aboutsection1{
+        height: 600px;
+
+    }
+    .as102{
+        font-weight: 100px;
+    }
+    #aboutsection101{
+        height: 550px;
+    }
+
+
+
+   #aboutsection2{
+        height: 600px;
+        position: absolute;
+        opacity: 0.1;
+        width: 100%;
+    }
+    
+}
+
+
+@media( max-width:380px){
+    #aboutsection1{
+        height: 600px;
+
+    }
+
+    #aboutsection101{
+        height: 550px;
+        padding: 10px;
+    }
+    .as101{
+        font-size: 25px;
+    }
+    .as102{
+        font-size: 15px;
+    }
+
+   #aboutsection2{
+        height: 600px;
+    }
+   
+}
+
+/* product page */
+
+
+@media(max-width:1205px){
+    .pbox{
+        height: 48vh;
+        object-fit: contain;
+    }
+
+}
+
+@media (max-width:1030px){
+    .pbox{
+        height: 44vh;
+    }
+}
+
+@media( max-width:990px){
+    .pbox{
+        height: 42vh;
+    }
+}
+
+@media( max-width:870px){
+  .pbox{
+        height: 30vh;
+    }
+
+}
+
+
+
+
+
+@media( max-width:580px){
+    #product h1{
+        padding-top: 35px;
+        padding-bottom: 20px;
+    }
+    .pbox{
+        height: 26vh;
+    }
+}
+
+
+
+@media( max-width:450px){
+  .pbox{
+        height: 22vh;
+    }
+}
+
+
+@media( max-width:375px){
+   .pbox{
+        height: 18vh;
+    }
+}
+
+
+/* about us page */
+
+
+@media(max-width:1205px){
+    .about p{
+        padding-top: 85px;
+    }
+}
+
+@media( max-width:990px){
+     .about p{
+        padding-top: 80px;
+    }
+}
+
+@media( max-width:870px){
+     .about p{
+        padding-top: 70px;
+    }
+    .instalogo{
+        height: 38px;
+        width: 38px;
+    }
+    .fblogo{
+        height: 38px;
+        width: 38px;
+    }
+    .twitterlogo{
+        height: 38px;
+        width: 38px;
+    }
+    .webpyrixlogo{
+        height: 38px;
+        width: 38px;
+    }
+}
+
+
+
+
+
+@media( max-width:580px){
+     .about p{
+        padding-top: 52px;
+    }
+    .iftlogo{
+        gap: 10px;
+    }
+    .instalogo{
+        height: 32px;
+        width: 32px;
+    }
+    .fblogo{
+        height: 32px;
+        width: 32px;
+    }
+    .twitterlogo{
+        height: 32px;
+        width: 32px;
+    }
+    .webpyrixlogo{
+        height: 32px;
+        width: 32px;
+    }
+}
+
+
+
+@media( max-width:450px){
+    .about{
+        opacity: 0.8;
+        /* scroll-behavior: smooth; */
+    }
+
+
+
+   .about p{
+        padding-top: 45px;
+    }
+    .iftlogo{
+        gap: 6px;
+    }
+    .instalogo{
+        height: 29px;
+        width: 29px;
+    }
+    .fblogo{
+        height: 29px;
+        width: 29px;
+    }
+    .twitterlogo{
+        height: 29px;
+        width: 29px;
+    }
+    .webpyrixlogo{
+        height: 29px;
+        width: 29px;
+    }
+}
+
+
+@media( max-width:375px){
+    .about p{
+        padding-top: 30px;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
