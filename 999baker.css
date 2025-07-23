@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline:opsz,wght@10..72,100..900&family=Big+Shoulders+Stencil:opsz,wght@10..72,100..900&family=Dancing+Script:wght@400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue|Ubuntu|Raleway&display=swap');
+html{
+    scroll-behavior: smooth;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: rgb(252, 251, 251);
+}
+a:hover{
+    color: rgb(11, 198, 223);
+}
+
+/* page 1 container */
+
+
+
+.firstbox{
+    display: flex;
+    padding: 50px 0px;
+    position: absolute;
+    width: 100%;
+    /* width: 100vw; */
+    /* background-image: url(../bpics/IMG_0420.JPG);
+    background-size: contain; */
+    /* background-color: blue; */
+}
+.logo{
+    width: 20%;
+    position: relative;
+    /* background-color: rgb(194, 8, 123); */
+}
+
+.logo img{
+    height: 200px;
+    position: absolute;
+    top: -50px;
+    margin-left: 20px;
+}
+.aboutsection{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    /* background-color: gray; */
+}
+.aboutlist{
+    display: flex;
+    list-style-type: none;
+    /* background-color: crimson; */
+    cursor: pointer;
+    font-family: "Playfair Display", serif;
+}
+.aboutlist li{
+    padding: 0px 40px;
+}
+/* #iconbox{
+    background-color: transparent;
+    border: none;
+} */
+#icon{
+    margin-left: 50px;
+    /* cursor: pointer; */
+}
+
+
+
+.bgimage{
+    /* height: 800px; */
+    width: 100%;
+    background-image: url(../bpics/IMG_0420.JPG);
+    background-size: 100% 100%;
+    background-position: center;
+    padding: 300px 0px;
+}
+#bgtext{
+    /* height: 250px; */
+    padding: 0px 50px;
+    /* margin-left: 50px; */
+    /* padding-top:100px; */
+
+}
+
+.main_heading{
+    color: rgb(249, 250, 247);
+    /* background-color: blue; */
+    /* text-align: center; */
+    font-family: "Dancing Script", cursive;
+    font-size: clamp(30px,10vw,100px);
+
+}
+.offcanvalogo{
+    height: 100px;
+    width: 100px;
+    margin-top: 10px;
+}
+.offcanvas-header{
+    background-color: rgb(250, 248, 248);
+
+}
+.offcanvas-body{
+    text-align: center;
+
+}
+.offcanvaslist{
+    list-style-type: none;
+    font-family:"Playfair Display", serif ;
+
+}
+
+
+.offcanvaslist li{
+    padding: 30px 0px;
+    color: black;
+}
+
+
+/* page 2 container */
+
+
+#aboutsection{
+    width: 100%;
+    /* height: 800px; */
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* textbox container in page 2 */
+
+
+#aboutsection1{
+    width: 50%;
+    /* background-color: blue; */
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#aboutsection101{
+    width: 95%;
+    height: 720px;
+    /* background-color: aqua; */
+    /* border-style: double; */
+    border-width: 10px;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+    /* background-image: url(../bpics/light.jpg); */
+    background-size: cover;
+    /* opacity: 0.5; */
+}
+.as101{
+    /* height: 250px; */
+    width: 100%;
+    /* background-color: brown; */
+    text-align: center;
+    font-size: clamp(30px,6vw,77px);
+    font-family: "Dancing Script", cursive;
+    /* margin-top: 0px; */
+}
+.as102{
+    /* height: 300px; */
+    width: 98%;
+    font-size: clamp(15px,3vw,25px);
+    /* background-color: chartreuse; */
+    margin-top: 10px;
+    text-align: center;
+    padding-top: 45px;
+    font-family: "Playfair Display", serif;
+}
+
+.asbtn {
+  display: inline-block;
+  margin-top: 50px;
+  padding: 12px 30px;
+  font-size: clamp(10px,3vw,25px);
+  color: white;
+  background: linear-gradient(135deg, #5a7ccb, #081734);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.asbtn::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  transition: all 0.4s ease;
+  transform: skewX(-20deg);
+}
+
+.asbtn:hover::after {
+  left: 100%;
+}
+
+.asbtn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+
+/* imagebox container in page 2*/
+
+
+
+#aboutsection2{                                                     
+    width: 50%;
+    /* background-color: blueviolet; */
+    height: 800px;
+    /* margin-left: 10px; */
+    position: relative;
+    background-image: url(../bpics/asimg2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    opacity: 0.8;
+}
+
+
+
+
+#product h1{
+    /* background-color: rgb(1, 12, 0); */
+    font-size: clamp(30px,8vw,80px);
+    /* justify-content: center; */
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    font-weight: 1000;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.products{
+    width: 100%;
+    /* background-color: rgb(4, 0, 7); */
+    /* height: 100vh; */
+    display: flex;
+}
+.pbox{
+    width: 30%;
+    height: 60vh;
+    /* background-color: aqua; */
+    margin: 5px 2% 5px 2%;
+    display: flex;
+}
+.pb1{
+    background-image: url(../bpics/cakes.jpeg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+.pb2{
+    background-image: url(../bpics/coffee.jpeg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+.pb3{
+    background-image: url(../bpics/cookies.jpeg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+.pb4{
+    background-image: url(../bpics/drinks.jpeg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+.pb5{
+    background-image: url(../bpics/pastries.jpeg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+.pb6{
+    background-image: url(../bpics/deserts.jpeg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+}
+.pbox button{
+    background-color: rgb(255, 255, 255);
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    border-style: none;
+    font-size: clamp(6px,3vw,25px);
+    font-weight: 10px;
+    font-family: "Playfair Display", serif;
+    opacity: 0.8;
+}
+.pbox button:hover{
+    background-color: rgb(255, 196, 0);
+}
+
+
+/* about page */
+
+#aboutus{
+    /* height: 100vh; */
+    width: 100%;
+    /* background-color: aqua; */
+    background-image: url(../bpics/123.jpg);
+    background-size: cover;
+    /* opacity: 0.5; */
+}
+.about{
+    width: 80%;
+    background-color: rgb(3, 3, 3);
+    margin-left: 10%;
+    margin-right: 10%;
+    opacity: 0.9;
+    color: white;
+}
+.about h1{
+    /* background-color: grey;
+    background: transparent; */
+    color: white;
+    font-size:clamp(30px,8vw,80px);
+    font-family: "Dancing Script", cursive;
+    text-align: center;
+    padding-top: 30px;
+}
+.about p{
+    font-size: clamp(10px,3vw,25px) ;
+    text-align: center;
+    /* font-weight: 100; */
+    padding-top: 90px;
+    font-family: "Playfair Display", serif;
+    margin-left: 4%;
+    margin-right: 4%;
+}
+.follow{
+    background-color: rgba(38, 32, 32, 0.908);
+    /* height: 200px; */
+    width: 100%;
+    margin-top: 13.69%;
+    display: flex;
+    /* padding-top: 5%; */
+    
+}
+.ift{
+    /* height: 200px; */
+    width: 50%;
+    /* background-color: brown; */
+    font-family: "Playfair Display", serif;
+    display: block;
+}
+.ifthead{
+    /* height: 50px; */
+    width: 100%;
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ifthead h5{
+    font-size: clamp(10px,3vw,25px);
+}
+.iftlogo{
+    height: 100px;
+    width: 100%;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-top: 5px;
+}
+.instalogo{
+    height: 45px;
+    width: 45px;
+    border-radius: 100%;
+    border-style: double;
+}
+.twitterlogo{
+    height: 45px;
+    width: 45px;
+    border-radius: 100%;
+    border-style: double;
+
+}
+.fblogo{
+    height: 45px;
+    width: 45px;
+    border-radius: 100%;
+    border-style: double;
+
+}
+.webpyrixlogo{
+    height: 45px;
+    width: 45px;
+    border-radius: 100%;
+    border-style: double;
+
+}
+.teamsupport{
+    /* height: 200px; */
+    width: 50%;
+    /* background-color: rgb(73, 220, 20); */
+    font-family:"Playfair Display", serif ;
+}
+.teamhead{
+     /* height: 50px; */
+    width: 100%;
+    /* background-color: burlywood; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.teamhead h5{
+    font-size: clamp(10px,3vw,25px);
+}
+.teamlogo{
+    height: 100px;
+    width: 100%;
+    /* background-color: pink; */
+    display: flex;
+    justify-content: center;
+    padding-top: 5px;
+}
+
+
